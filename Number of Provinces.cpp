@@ -94,5 +94,5 @@ public:
     }
 };
 
-// Time Complexity:  O(V + E)
-// Space Complexity: O(V * E)
+// Time Complexity:  O(N) + O(V + E) + O(V ^ 2) [ For Traversing the Adjacency Matrix[] ]
+// Space Complexity: O(V * E) [ For creating the Adjacency List]
