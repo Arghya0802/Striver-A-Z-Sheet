@@ -22,6 +22,7 @@ bool isValid(int row , int col , int m , int n , vector<vector<int>> &vis , vect
 public:
     int orangesRotting(vector<vector<int>>& grid) 
     {
+        // As we are tyring to find the Min-Time, we need to travel levelwise, that's why we are using BFS
         int m = grid.size() ;
         int n = grid[0].size() ;
 
