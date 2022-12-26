@@ -1,5 +1,5 @@
-// LeetCode:
-// GFG:
+// LeetCode: https://leetcode.com/problems/rotting-oranges/description/
+// GFG: https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1
 
 class Solution {
 private:
